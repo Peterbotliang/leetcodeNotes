@@ -2,4 +2,5 @@
 
 * [Leetcode Notes](README.md)
 * [Leetcode 142](leetcode-142.md)
+* [Leetcode 873](leetcode-873.md)
 
