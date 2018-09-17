@@ -1,3 +1,7 @@
+---
+description: Orderly Queue
+---
+
 # Leetcode 899
 
 ## Question
