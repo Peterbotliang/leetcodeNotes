@@ -7,7 +7,7 @@ List
 - sdf
 
 Math inline
-1. asddfd $a = b$
+1. asddfd \(a = b\)
 
 standalone
 \[ a = b \]
