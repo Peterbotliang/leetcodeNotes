@@ -1,7 +1,3 @@
----
-description: Single Number III
----
-
 # Leetcode 260
 
 ## Question

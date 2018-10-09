@@ -1,7 +1,3 @@
----
-description: A simple hash function for "pair" in C++
----
-
 # How to hash "pair" in C++
 
 ## Code

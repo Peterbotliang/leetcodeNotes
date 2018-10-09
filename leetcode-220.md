@@ -1,7 +1,3 @@
----
-description: Contains Duplicate III
----
-
 # Leetcode 220
 
 ## Question

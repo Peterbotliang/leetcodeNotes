@@ -1,7 +1,3 @@
----
-description: Length of Longest Fibonacci Subsequence
----
-
 # Leetcode 873
 
 ## Question

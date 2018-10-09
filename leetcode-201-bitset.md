@@ -1,7 +1,3 @@
----
-description: Bitwise AND of Numbers Range
----
-
 # Leetcode 201 \(bitset\)
 
 ## Question

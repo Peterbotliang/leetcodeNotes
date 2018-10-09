@@ -1,7 +1,3 @@
----
-description: Linked List Cycle II
----
-
 # Leetcode 142
 
 ## Question
