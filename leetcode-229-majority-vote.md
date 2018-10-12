@@ -39,3 +39,65 @@ In the first pass, for each element `x` in the array, the steps go as follows
 
 This algorithm guarantees that it the majority number exists, it must be either in `A` or `B` \(And there are at most 2 majority numbers. In the second pass, we simply count the numbers of `A`and `B` to check whether they are real majority numbers of not.
 
+
+
+## Code
+
+[229.cpp](https://github.com/Peterbotliang/leetcodeNotes/blob/master/229.cpp)
+
+```text
+class Solution 
+{
+public:
+    vector<int> majorityElement(vector<int>& nums) 
+    {
+        // if (nums.size() <= 2)
+        //     return nums;
+        
+        int A, B;
+        int countA = 0;
+        int countB = 0;
+        
+        for (int &num : nums)
+        {
+            if (num == A)
+                countA++;
+            else if (num == B)
+                countB++;
+            else if (countA == 0)
+            {
+                A = num;
+                countA = 1;
+            }
+            else if (countB == 0)
+            {
+                B = num;
+                countB++;
+            }
+            else
+            {
+                countA--;
+                countB--;
+            }
+        }
+        
+        countA = 0;
+        countB = 0;
+        vector<int> result;
+        for (int &num : nums)
+        {
+            if (num == A)
+                countA++;
+            else if (num == B)
+                countB++;
+        }
+        
+        if (countA > nums.size() / 3)
+            result.push_back(A);
+        if (countB > nums.size() / 3)
+            result.push_back(B);
+        return result;
+    }
+};
+```
+
